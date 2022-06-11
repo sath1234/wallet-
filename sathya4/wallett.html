@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>WALLET APP</title>
+    <style>
+            body,html {
+                height: 100%;
+            }
+            .bg {
+                background-image: url('ima.jfif');
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #form {
+                width: 350px;
+                height: 300px;
+                border: 5px solid;
+                margin-left: 8%;
+                border-radius: 6%;
+                border-color: rgb(236, 182, 21);
+                text-align: center;
+            }
+            input[type=text], input[type=password] {
+                width: 80%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid rgb(245, 217, 36);
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            button {
+                width: 35%;
+                background-color: rgb(220, 176, 32);
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            h1 {
+                font-size: 1.5cm;
+                font-style: italic;
+                float: center;
+            }
+            .img {
+                margin-right: 8%;
+                margin-bottom: 4%;
+                float:right; 
+                width: 500;
+                height: 400;
+                border-radius: 3cm;	
+            }
+            a {
+                color: rgb(239, 209, 39);
+                font-style: normal;
+            }
+            ul {
+                list-style-type: none;
+                margin: 10px;
+                margin-top: 2px;
+                width: 64.5%;
+                float: center;
+                padding: 0px;
+                overflow: hidden;
+                border-radius: 6px;
+                background-color: rgb(235, 115, 18);
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(12, 12, 14);
+                font-size:20px;
+                text-align: center;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
+            .active{
+                background-color: rgb(234, 16, 16);
+                color: white;
+            }
+            li a:hover {
+                background-color: rgb(236, 15, 15);
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="bg">
+        <center><h1>Add Wallet Points</h1></center>
+        <center><ul>
+            <li><a href="dash.html">Home</a></li>
+            <li><a href="addwallent.html" class="active">Add Wallet Points</a></li>
+            <li><a href="">Check Balance</a></li>
+            <li><a href="">Transation List</a></li>
+            <li><a href="payment.html">Payment</a></li>
+            <li><a href="file 1.html">Logout</a></li>
+        </ul></center><br>
+        <img src="C:\Users\Nevetha\Downloads\1.png" class="img"><br><br><br>
+        <aside><form id="form"><br><br>
+            <input type="text" name="Enter PIN" placeholder="Enter PIN"><br><br>
+            <input type="text" name="Amount" placeholder="Amount"><br><br>
+            <button>Submit</button>&nbsp&nbsp&nbsp&nbsp
+            <button>Cancel</button>
+        </form></aside>
+    </body>

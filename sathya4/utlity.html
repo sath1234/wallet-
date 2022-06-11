@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>WALLET APP</title>
+        <style>
+            body,html {
+            height: 100%;
+        }
+        .bg {
+            background-image: url('ima.jfif');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+            h1 {
+            font-size: 1.5cm;
+            font-style: italic;
+            }
+            aside {
+                text-decoration: none;
+                width: 250px;
+                height: 230px;
+                margin-left: 8%;
+                border: 2px solid;
+                border-color: rgb(65, 64, 64);
+                border-radius: 6%;
+                text-align: center;
+                font-size: 20px;
+                font-style: bold;
+                background-image: url('bg2.jpg');
+            }
+            aside a {
+                text-decoration: none;
+                color: rgb(62, 65, 66);
+            }
+            #form {
+            width: 350px;
+            height: 350px;
+            border: 3px solid;
+            margin-right: 25%;
+            margin-top: 2%;
+            float: right;
+            border-radius: 6%;
+            border-color: rgb(65, 64, 64);
+            box-shadow: 10px 10px #cdcfd1;
+            text-align: center;
+            background-image: url('bill.jpg');
+            background-size: contain;
+        }
+        input[type=text], input[type=password], select {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 0.5px solid #ccc;
+            border-radius: 20px;
+            border-color: rgb(37, 36, 36);
+            box-sizing: border-box;
+        }
+        button {
+            width: 35%;
+            background-color: rgb(53, 214, 214);
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px;
+            border-color: rgb(67, 75, 76);
+            border-radius: 40px;
+            cursor: pointer;
+        }
+            button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            div a {
+                text-decoration: none;
+                float: left;
+                margin-left: 15%;
+            }
+        </style>
+    </head>
+    <body class="bg">
+        <center><h1>Pay Utility Bills</h1></center>
+        <div><a href="home.html"><==Back</a></div>
+        <form id="form">
+            <br><br>
+            <select id="bill" name="bill">
+            <option value="">---- Select Bill Type ----</option>   
+           <option value="Telephone Bill">Telephone Bill</option>
+           <option value="Electricity Bill">Electricity Bill</option>
+           </select><br><br>
+           <input type="text" name="Service Number" placeholder="Enter Service Number"><br><br>
+           <input type="text" name="Amount" placeholder="Enter Amount"><br><br>
+           <button>Pay options</button>&nbsp&nbsp&nbsp&nbsp
+            <button>Cancel</button>
+        </form><br><br><br>
+        <aside> 
+            <br>   
+                <a href="utility.html">Pay Utility Bills ===></a><br><br>
+                <a href="Mobile.html">Recharge Mobile ===></a><br><br>
+                <a href="dth.html"> Recharge DTH ===></a><br><br>
+                <a href="tax.html">Pay Crop/Water Tax ===></a><br><br>
+        </aside>
+    </body>
+</html>
